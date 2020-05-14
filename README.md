@@ -71,6 +71,8 @@ In your own words: what does asynchronous mean?
 
 Write out the request and response cycle. What is its purpose? How does it work?
 
+(get) request --> response (.then( res => res.json() ))
+
 ### Question 5
 
 Check out the JSON you get from making a GET request to [this](https://randomuser.me/api/) url (https://randomuser.me/api/).
