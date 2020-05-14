@@ -26,7 +26,7 @@ console.log("Sup?")
 
 ### Question 2
 
-When fetchData is executed what will be console logged?
+When fetchData is executed what will be console logged?.
 
 ```javascript
 function fetchData(){
