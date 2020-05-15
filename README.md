@@ -66,10 +66,12 @@ fetchData()
 ### Question 3
 
 In your own words: what does asynchronous mean?
+Various things run at the same time. When JS gets a fetch, it will start to resolve that request while it finds other commands that can be completed at the same time.
 
 ### Question 4
 
 Write out the request and response cycle. What is its purpose? How does it work?
+The user sends a request to a server through a series of GET/POST/PATCH or whichever restful API. The server obtains the request and will return a response that can end in success (200) or any other error that it has encountered (400/500)
 
 ### Question 5
 
